@@ -1,7 +1,7 @@
 {
     "name":"Hackebein's VCC Listing",
     "id":"dev.hackebein.vcc-listing",
-    "url":"https://hackebein.github.io/VCC-Listing/index.json",
+    "url":"https://vcc.hackebein.dev/index.json",
     "author":{
         "email":"hackebein@gmail.com",
         "name":"Hackebein",
