@@ -16,5 +16,13 @@
     "githubRepos":[
         "hackebein/Object-Tracking-Unitypackage"
     ],
-    "packages":[]
+    "packages":[
+        {
+            "id": "com.valvesoftware.unity.openvr",
+            "releases": [
+                "https://github.com/ValveSoftware/unity-xr-plugin/releases/download/v1.1.5b/com.valvesoftware.unity.openvr-1.1.5.tgz",
+                "https://github.com/ValveSoftware/unity-xr-plugin/releases/download/v1.1.4/com.valvesoftware.unity.openvr-1.1.4.tgz"
+            ]
+        }
+    ]
 }
