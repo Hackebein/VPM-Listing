@@ -9,8 +9,8 @@
     },
     "description":"Hackebein's VPM listing of Packages",
     "infoLink":{
-        "url":"http://github.com/hackebein/VPC-Listing",
-        "text":"Readme"
+        "url":"http://github.com/hackebein/VPM-Listing",
+        "text":"Project Repository"
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
