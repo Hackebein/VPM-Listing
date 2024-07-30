@@ -1,3 +1,3 @@
 # Hackebein's VCC Listing
 
-VCC Listening: [vcc.hackebein.dev](https://vcc.hackebein.dev)
+VPM Listening: [vpm.hackebein.dev](https://vpm.hackebein.dev)

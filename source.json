@@ -1,20 +1,20 @@
 {
-    "name":"Hackebein's VCC Listing",
-    "id":"dev.hackebein.vcc-listing",
-    "url":"https://vcc.hackebein.dev/index.json",
+    "name":"Hackebein's VPM Listing",
+    "id":"dev.hackebein.vpm",
+    "url":"https://vpm.hackebein.dev/index.json",
     "author":{
         "email":"hackebein@gmail.com",
         "name":"Hackebein",
         "url":"https://hackebein.de"
     },
-    "description":"Hackebein's VCC Listing of VPM packages",
+    "description":"Hackebein's VPM listing of Packages",
     "infoLink":{
-        "url":"http://github.com/hackebein/VCC-Listing",
+        "url":"http://github.com/hackebein/VPC-Listing",
         "text":"Readme"
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "hackebein/Object-Tracking-VPM"
+        "hackebein/Object-Tracking-Unitypackage"
     ],
     "packages":[]
 }
