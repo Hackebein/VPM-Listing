@@ -7,7 +7,7 @@
         "name":"Hackebein",
         "url":"https://hackebein.de"
     },
-    "description":"Hackebein's VPM listing of Packages",
+    "description":"A listing of all my VPM packages.",
     "infoLink":{
         "url":"http://github.com/hackebein/VPM-Listing",
         "text":"Project Repository"
