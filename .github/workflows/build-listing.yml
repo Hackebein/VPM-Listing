@@ -20,7 +20,8 @@ concurrency:
 env:
   listPublishDirectory: Website
   pathToCi: ci
-  currentListingUrl: https://vpm.hackebein.dev/index.json
+  # after https://github.com/vrchat-community/package-list-action/pull/29
+  #currentListingUrl: https://vpm.hackebein.dev/index.json
 
 jobs:
   
