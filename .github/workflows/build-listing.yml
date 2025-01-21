@@ -48,7 +48,9 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/global.json', '**/*.csproj') }}
           
       - name: Build Package Version Listing
-        run: ${{env.pathToCi}}/build.cmd BuildMultiPackageListing --root ${{env.pathToCi}} --list-publish-directory $GITHUB_WORKSPACE/${{env.listPublishDirectory}} --current-listing-url {{env.currentListingUrl}}
+        # after https://github.com/vrchat-community/package-list-action/pull/29
+        #run: ${{env.pathToCi}}/build.cmd BuildMultiPackageListing --root ${{env.pathToCi}} --list-publish-directory $GITHUB_WORKSPACE/${{env.listPublishDirectory}} --current-listing-url {{env.currentListingUrl}}
+        run: ${{env.pathToCi}}/build.cmd BuildMultiPackageListing --root ${{env.pathToCi}} --list-publish-directory $GITHUB_WORKSPACE/${{env.listPublishDirectory}}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
  
