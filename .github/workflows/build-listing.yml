@@ -40,7 +40,7 @@ jobs:
           clean: false # otherwise the local repo will no longer be checked out
           
       - name: Restore Cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ${{env.pathToCi}}/.nuke/temp
