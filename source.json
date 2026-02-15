@@ -14,6 +14,7 @@
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "hackebein/Object-Tracking-Unitypackage"
+        "hackebein/Object-Tracking-Unitypackage",
+        "hackebein/hackebein.vpm.packager"
     ]
 }
