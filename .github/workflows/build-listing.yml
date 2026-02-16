@@ -32,15 +32,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       
-      - uses: actions/checkout@v5 # check out this repo
-      - uses: actions/checkout@v5 # check out automation repo
+      - uses: actions/checkout@v6 # check out this repo
+      - uses: actions/checkout@v6 # check out automation repo
         with:
           repository: vrchat-community/package-list-action
           path: ${{env.pathToCi}}
           clean: false # otherwise the local repo will no longer be checked out
           
       - name: Restore Cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: |
             ${{env.pathToCi}}/.nuke/temp
